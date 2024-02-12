@@ -19,9 +19,9 @@ function TodoForm() {
 
   return (
     <form onSubmit={onSubmit}>
-      <label> Escribe un nuevo TODO</label>
+      <label> Escribe una nueva tarea</label>
       <textarea
-        placeholder="Placeholder"
+        placeholder="Escribe una tarea..."
         value={newTodoValue}
         onChange={onChange}
       ></textarea>
