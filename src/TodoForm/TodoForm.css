@@ -36,10 +36,6 @@ form {
     font-weight: 400;
   }
   
-  textarea:focus {
-    outline-color: #61DAFA;
-  }
-  
   .TodoForm-buttonContainer {
     margin-top: 14px;
     display: flex;
